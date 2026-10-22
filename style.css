@@ -79,9 +79,10 @@ footer p { margin-bottom: 8px; font-size: 14px; }
 }
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Ép tất cả ảnh về chung một chiều cao cố định */
+    object-fit: contain; /* Thu phóng trọn vẹn ảnh vào khung, không bị cắt xén hay méo hình */
     border-radius: 4px;
-    object-fit: cover;
+    background-color: #fff; /* Lót nền trắng để đồng bộ màu sắc */
 }
 .gallery-item span {
     display: block;
