@@ -23,7 +23,8 @@
         <div class="hero-content">
             <h1>Giải pháp Ngũ kim & Phụ kiện Nội thất</h1>
             <p>Hơn 127 danh mục tay nắm, bản lề, ray trượt chất lượng cao dành cho xưởng mộc và thiết kế nội thất.</p>
-            <a href="https://drive.google.com/file/d/1l7ZSQJNeWOTd7XYBP-iHznhpFMv2fmao/view?usp=drive_link" target="_blank" class="cta-button">📥 Xem Catalog 2026 (PDF)</a>
+            <!-- NÚT TẢI CATALOG: Sếp dán link Google Drive vào chỗ LINK_GOOGLE_DRIVE_CUA_SEP -->
+            <a href="https://drive.google.com/file/d/1l7ZSQJNeWOTd7XYBP-iHznhpFMv2fmao/view?usp=sharing" target="_blank" class="cta-button">📥 Tải Catalog 2026 (PDF)</a>
         </div>
     </section>
 
@@ -33,65 +34,57 @@
         <p>Chúng tôi tự hào là đơn vị cung cấp các dòng sản phẩm ngũ kim nội thất (Hardware) đạt chuẩn quốc tế. Với các dòng sản phẩm cốt lõi như tay nắm hợp kim kẽm, bản lề giảm chấn, ray trượt chịu tải cao, Yuxin cam kết mang lại sự bền bỉ và chuyển động êm ái cho mọi thiết kế đồ gỗ của bạn.</p>
     </section>
 
-    <!-- KHU VỰC SẢN PHẨM & TÌM KIẾM (Thao tác 3 sẽ đổ dữ liệu vào đây) -->
+    <!-- KHU VỰC SẢN PHẨM NỔI BẬT (Đã cập nhật đúng file .png trên Github của sếp) -->
     <section id="products" class="products-section">
         <h2>Danh mục Sản phẩm 2026</h2>
-        <!-- TỔ HỢP 10 HÌNH ẢNH NỔI BẬT (2 HÀNG) -->
-    <div class="gallery-container">
-        <h3 class="gallery-title">SẢN PHẨM NỔI BẬT</h3>
-        <div class="image-gallery">
-            <!-- HÀNG 1: TAY NẮM -->
-            <div class="gallery-item">
-                <img src="images/KTA741.png" alt="KTA741">
-                <span>KTA741</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/KTA729.png" alt="KTA729">
-                <span>KTA729</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/KTA845.png" alt="KTA845">
-                <span>KTA845</span>
-            </div>
-            <!-- Dùng 2 ảnh YX606 và YX616 bạn đã up thay cho mã KTADK -->
-            <div class="gallery-item">
-                <img src="images/YX606.png" alt="YX606">
-                <span>YX-606</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/YX616.png" alt="YX616">
-                <span>YX-616</span>
-            </div>
-            
-            <!-- HÀNG 2: BẢN LỀ & RAY TRƯỢT -->
-            <!-- Chú ý bỏ dấu gạch ngang ở tên file YX781 và YX809 để khớp với Github -->
-            <div class="gallery-item">
-                <img src="images/YX781.png" alt="YX-781">
-                <span>YX-781</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/YX809.png" alt="YX-809">
-                <span>YX-809</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/YX-H002.png" alt="YX-H002">
-                <span>YX-H002</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/YX-604.png" alt="YX-604">
-                <span>YX-604</span>
-            </div>
-            <div class="gallery-item">
-                <img src="images/YX-4501.png" alt="YX-4501">
-                <span>YX-4501</span>
-            </div>
-        </div>
-    </div>
         
-
-        <!-- Khung chứa sản phẩm -->
-        <div id="productGrid" class="grid-container">
-            <!-- JavaScript sẽ tự động vẽ sản phẩm vào đây -->
+        <div class="gallery-container">
+            <h3 class="gallery-title">SẢN PHẨM NỔI BẬT</h3>
+            <div class="image-gallery">
+                <!-- HÀNG 1: TAY NẮM -->
+                <div class="gallery-item">
+                    <img src="images/KTA741.png" alt="KTA741">
+                    <span>KTA741</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/KTA729.png" alt="KTA729">
+                    <span>KTA729</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/KTA845.png" alt="KTA845">
+                    <span>KTA845</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX606.png" alt="YX606">
+                    <span>YX-606</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX616.png" alt="YX616">
+                    <span>YX-616</span>
+                </div>
+                
+                <!-- HÀNG 2: BẢN LỀ & RAY TRƯỢT -->
+                <div class="gallery-item">
+                    <img src="images/YX781.png" alt="YX-781">
+                    <span>YX-781</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX809.png" alt="YX-809">
+                    <span>YX-809</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX-H002.png" alt="YX-H002">
+                    <span>YX-H002</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX-604.png" alt="YX-604">
+                    <span>YX-604</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/YX-4501.png" alt="YX-4501">
+                    <span>YX-4501</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -99,24 +92,23 @@
     <footer id="contact">
         <div class="footer-content">
             <h3>KING-TRUST YUXIN HARDWARE</h3>
-            <p>Email: contact@yuxinhardware.com | Hotline: 0909.xxx.xxx</p>
+            <p>Email: contact@yuxinhardware.com | Hotline: 0778853928</p>
             <p>Chuyên cung cấp sỉ phụ kiện nội thất: Tay nắm - Bản lề - Ray trượt.</p>
             <p>&copy; 2026 Yuxin Hardware. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="app.js"></script>
-</body>
-</html>
-<!-- CỤM NÚT LIÊN HỆ NỔI -->
+    <!-- CỤM NÚT LIÊN HỆ NỔI CHỐT SALE -->
     <div class="floating-contact">
-        <!-- Nút Zalo -->
+        <!-- Nút Zalo (Nhớ thay 0778853928 thành số thật) -->
         <a href="https://zalo.me/0778853928" target="_blank" class="zalo-btn" title="Chat Zalo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo">
         </a>
-        <!-- Nút Gọi điện Hotline (Hiệu ứng rung) -->
+        <!-- Nút Gọi điện Hotline (Nhớ thay 0778853928 thành số thật) -->
         <a href="tel:0778853928" class="phone-btn" title="Gọi Hotline">
-            <!-- Icon điện thoại bằng SVG cho nhẹ -->
             <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 1.01-.63 1.01-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
         </a>
     </div>
+
+</body>
+</html>
