@@ -42,59 +42,52 @@
         <div class="image-gallery">
             <!-- HÀNG 1: TAY NẮM -->
             <div class="gallery-item">
-                <img src="images/KTA741.jpg" alt="KTA741">
+                <img src="images/KTA741.png" alt="KTA741">
                 <span>KTA741</span>
             </div>
             <div class="gallery-item">
-                <img src="images/KTA729.jpg" alt="KTA729">
+                <img src="images/KTA729.png" alt="KTA729">
                 <span>KTA729</span>
             </div>
             <div class="gallery-item">
-                <img src="images/KTA845.jpg" alt="KTA845">
+                <img src="images/KTA845.png" alt="KTA845">
                 <span>KTA845</span>
             </div>
+            <!-- Dùng 2 ảnh YX606 và YX616 bạn đã up thay cho mã KTADK -->
             <div class="gallery-item">
-                <img src="images/KTADK138.jpg" alt="KTADK138">
-                <span>KTADK138</span>
+                <img src="images/YX606.png" alt="YX606">
+                <span>YX-606</span>
             </div>
             <div class="gallery-item">
-                <img src="images/KTADK032.jpg" alt="KTADK032">
-                <span>KTADK032</span>
+                <img src="images/YX616.png" alt="YX616">
+                <span>YX-616</span>
             </div>
             
             <!-- HÀNG 2: BẢN LỀ & RAY TRƯỢT -->
+            <!-- Chú ý bỏ dấu gạch ngang ở tên file YX781 và YX809 để khớp với Github -->
             <div class="gallery-item">
-                <img src="images/YX-781.jpg" alt="YX-781">
+                <img src="images/YX781.png" alt="YX-781">
                 <span>YX-781</span>
             </div>
             <div class="gallery-item">
-                <img src="images/YX-809.jpg" alt="YX-809">
+                <img src="images/YX809.png" alt="YX-809">
                 <span>YX-809</span>
             </div>
             <div class="gallery-item">
-                <img src="images/YX-H002.jpg" alt="YX-H002">
+                <img src="images/YX-H002.png" alt="YX-H002">
                 <span>YX-H002</span>
             </div>
             <div class="gallery-item">
-                <img src="images/YX-604.jpg" alt="YX-604">
+                <img src="images/YX-604.png" alt="YX-604">
                 <span>YX-604</span>
             </div>
             <div class="gallery-item">
-                <img src="images/YX-4501.jpg" alt="YX-4501">
+                <img src="images/YX-4501.png" alt="YX-4501">
                 <span>YX-4501</span>
             </div>
         </div>
     </div>
         
-        <div class="controls">
-            <input type="text" id="searchInput" placeholder="Nhập mã sản phẩm (VD: KTA741, YX-604)...">
-            <select id="categoryFilter">
-                <option value="all">Tất cả danh mục</option>
-                <option value="Furniture Handle">Tay nắm (Furniture Handle)</option>
-                <option value="Furniture Hinge">Bản lề (Furniture Hinge)</option>
-                <option value="Drawer Slide">Ray trượt (Drawer Slide)</option>
-            </select>
-        </div>
 
         <!-- Khung chứa sản phẩm -->
         <div id="productGrid" class="grid-container">
